@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1><title>Survey form</title></h1>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+  <body>
+    <form method="get" class="w3-container">
+        <label for="Description">How many times do you go to CASA for maintenance in a year?</label required> 
+        <input class=w3-input type="number" min="1" max="12">
+        <br />
+        <label for="survey-form">type of unit</label>
+        <select name="type of unit">
+        <option selected disabled>Select option</option>
+        <option value="Sedan">Sedan</option>
+        <option value="SUV"> SUV </option>
+        <option value="APV"> APV </option>
+        <option value="Hatchback">Hatchback></option>
+        <option value="Van">Van</option>
+        </select>
+        <br />
+        <label for="name">Customer name</label>
+        <input class=w3-input type="text" name="Customer name" placeholder="Customer name">
+        <br />
+        <label for="Email">Customer Email</label>
+        <input class=w3-input type="Email" name="Customer email">
+        <br />
+        <label for="attribute">Color of Unit</label>
+        <input class="w3-radio" class=w3-input type="radio" name="Color of Unit" value="Red"> Red
+        <input class="w3-radio" class=w3-input type="radio" name="Color of Unit" value="Blue"> Blue
+        <input class="w3-radio" class=w3-input type="radio" name="Color of Unit" value="Yellow"> Yellow
+        <input class="w3-radio" class=w3-input type="radio" name="Color of Unit" value="Green"> Green
+        <input class="w3-radio" class=w3-input type="radio" name="Color of Unit" value="Silver"> Silver
+        <input class="w3-radio" class=w3-input type="radio" name="Color of Unit" value="Black"> Black
+        <br />
+        <label for="Suggestions">Suggestions</label>
+        <textarea name="Suggestions" maxlength="200" rows="10" cols="30"></textarea>
+        <br />
+        <br />
+        <input class="w3-button w3-round-large w3-green" class=w3-input type="submit" value="Send">
+        <br />
+
+    </form>
+  </body>
+</html>

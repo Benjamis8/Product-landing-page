@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1><title>Survey form</title></h1>
+  </head>
+  <body>
+    <form method="get">
+        <label for="Description">How many times do you go to CASA for maintenance in a year?</label>
+        <input type="number" min="1" max="12">
+        <br />
+        <label for="survey-form">type of unit</label>
+        <select name="type of unit">
+        <option value="Sedan">Sedan</option>
+        <option value="SUV"> SUV </option>
+        <option value="APV"> APV </option>
+        <option value="Hatchback">Hatchback></option>
+        <option value="Van">Van</option>
+        </select>
+        <br />
+        <label for="name">Customer name</label>
+        <input type="text" name="Customer name" placeholder="Customer name">
+        <br />
+        <label for="Email">Customer Email</label>
+        <input type="Email" name="Customer email">
+        <br />
+        <label for="attribute">Color of Unit</label>
+        <input type="radio" name="Color of Unit" value="Red"> Red
+        <input type="radio" name="Color of Unit" value="Blue"> Blue
+        <input type="radio" name="Color of Unit" value="Yellow"> Yellow
+        <input type="radio" name="Color of Unit" value="Green"> Green
+        <input type="radio" name="Color of Unit" value="Silver"> Silver
+        <input type="radio" name="Color of Unit" value="Black"> Black
+        <br />
+        <label for="Suggestions">Suggestions</label>
+        <textarea name="Suggestions" maxlength="200" rows="10" cols="30"></textarea>
+        <br />
+        <input type="submit" value="Send">
+        <br />
+
+    </form>
+  </body>
+</html>

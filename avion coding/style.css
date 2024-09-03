@@ -1,0 +1,51 @@
+/* /* *{
+  background-color: aqua;
+}  */  
+
+body {
+  background-color: white;
+}
+
+h1 {
+    color: pink !important;
+    color: red;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+   }
+#my-id {
+    color: rgb(73, 102, 73); 
+    font-size: 40px;
+  }
+
+  .my-class {
+    color: blue; 
+    background-color: yellow;
+  }
+h3 { 
+    color: black; 
+}
+span {
+   color: violet;
+}
+.brown-color {
+  color: brown !important;
+}
+#blue-color {
+  color: blue;
+}
+
+#background-blue, h2, .backround-blue {
+  background-color: blue;
+}
+
+#my-img {
+  width: 70%;
+  height: 50;
+}
+
+.my-link {
+  text-align: center;
+}
+span {
+  background-color: black;
+}
