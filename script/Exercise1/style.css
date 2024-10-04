@@ -1,0 +1,32 @@
+/* 
+Desktop: 769px and up
+Mobile: 425px and down
+Tablet: Between 426px and 768px
+*/
+
+.mobile, .tablet, .desktop {
+    display: none;
+}
+
+/* mobile */
+@media screen and (max-width:425px) {
+    .mobile {
+        display: block;
+    }
+
+}
+
+/* tablet */
+@media screen and (max-width:426px) and (max-width:768px) {
+    .tablet {
+        display: block;
+    }
+}
+
+
+/* desktop */
+@media screen and (max-width:769px) {
+    .desktop {
+        display: block;
+    }
+}

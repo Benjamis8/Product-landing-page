@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 640px;
+    height: 640px;
+    border: solid olivedrab;
+    
+}
+
+.white  {
+    width: 80px;
+    height: 80px;
+    background-color: whitesmoke;
+}
+
+.black  {
+    width: 80px;
+    height: 80px;
+    background-color: lightgreen;
+}
+
+.black, .white {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+h1 {
+    text-align: center;
+}

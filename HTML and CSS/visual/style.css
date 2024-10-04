@@ -1,0 +1,37 @@
+/* this will only be applied to screens/devices with width size in between 320px and 780px */
+/* @media all and (min-width: 320px) and (max-width:780px) {
+    body {
+        background-color: yellow;
+    }
+}
+ */
+/* this will be applied wwhen lanscape or portrait screen is detected */
+/* @media only screen and (orientation: landscape){
+    body {
+        background-color: red   
+    }
+} */
+
+/* @media only screen and (orientation: portrait){
+    body {
+        background-color: blue;
+    }
+} */
+
+/* this apprears if the screen is at a 16/9 ratio */
+/* @media all and (min-device-aspect-ratio: 16/9) {
+    body {
+        background-color: violet;
+    }
+} */
+
+@media print {
+    body { 
+        font-size: 100px;
+        background-color: yellow;
+        color: red;
+    }
+}
+h1 {
+    background-color: blue;
+}

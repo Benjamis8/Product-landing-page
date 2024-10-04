@@ -1,0 +1,28 @@
+.Chess-board-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    border: solid 10px olive;
+    justify-content: center;
+    place-content: center;
+}
+
+
+.black {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+
+}
+
+.white {
+    background-color: whitesmoke;
+    height: 100px;
+    width: 100px;
+}
+
+.black, .white {
+    justify-items: center;
+    align-items: center;
+    display: grid;
+}

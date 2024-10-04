@@ -124,3 +124,22 @@
     display: flex;
     justify-content: space-between;
 }
+.chessboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100px;
+}
+.gray, .black {
+    flex: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gray {
+    background-color: gray;
+}
+.black {
+    background-color: white;
+}
